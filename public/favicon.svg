@@ -1,55 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <!-- Background -->
-  <rect width="200" height="200" fill="#1a1a1a" rx="40"/>
+  <rect width="200" height="200" fill="#FFD700" rx="40"/>
   
-  <!-- Spider Web Background -->
-  <circle cx="100" cy="100" r="85" fill="none" stroke="#ff0000" stroke-width="1" opacity="0.3"/>
-  
-  <!-- Spider-Man's Head -->
-  <circle cx="100" cy="80" r="35" fill="#ff0000"/>
-  
-  <!-- Eyes -->
-  <ellipse cx="85" cy="70" rx="12" ry="18" fill="#000000"/>
-  <ellipse cx="115" cy="70" rx="12" ry="18" fill="#000000"/>
-  
-  <!-- Eye highlights (white) -->
-  <ellipse cx="87" cy="65" rx="5" ry="8" fill="#ffffff"/>
-  <ellipse cx="117" cy="65" rx="5" ry="8" fill="#ffffff"/>
-  
-  <!-- Nose area -->
-  <path d="M 100 85 L 95 95 L 105 95 Z" fill="#1a1a1a"/>
-  
-  <!-- Web pattern on face -->
-  <line x1="100" y1="50" x2="100" y2="110" stroke="#000000" stroke-width="1.5"/>
-  <line x1="70" y1="80" x2="130" y2="80" stroke="#000000" stroke-width="1.5"/>
-  
-  <!-- Spider body (chest) -->
-  <ellipse cx="100" cy="130" rx="40" ry="45" fill="#ff0000"/>
-  
-  <!-- Spider emblem on chest -->
-  <circle cx="100" cy="130" r="20" fill="#000000"/>
-  
-  <!-- Spider symbol -->
-  <circle cx="100" cy="130" r="3" fill="#ff0000"/>
-  
-  <!-- 8 spider legs from body -->
-  <!-- Top left legs -->
-  <line x1="75" y1="95" x2="45" y2="60" stroke="#ff0000" stroke-width="4" stroke-linecap="round"/>
-  <line x1="70" y1="100" x2="35" y2="90" stroke="#ff0000" stroke-width="4" stroke-linecap="round"/>
-  
-  <!-- Top right legs -->
-  <line x1="125" y1="95" x2="155" y2="60" stroke="#ff0000" stroke-width="4" stroke-linecap="round"/>
-  <line x1="130" y1="100" x2="165" y2="90" stroke="#ff0000" stroke-width="4" stroke-linecap="round"/>
-  
-  <!-- Bottom left legs -->
-  <line x1="75" y1="165" x2="45" y2="190" stroke="#ff0000" stroke-width="4" stroke-linecap="round"/>
-  <line x1="70" y1="170" x2="35" y2="180" stroke="#ff0000" stroke-width="4" stroke-linecap="round"/>
-  
-  <!-- Bottom right legs -->
-  <line x1="125" y1="165" x2="155" y2="190" stroke="#ff0000" stroke-width="4" stroke-linecap="round"/>
-  <line x1="130" y1="170" x2="165" y2="180" stroke="#ff0000" stroke-width="4" stroke-linecap="round"/>
-  
-  <!-- Web strands -->
-  <path d="M 50 60 Q 75 75 100 70" stroke="#000000" stroke-width="1" fill="none" opacity="0.5"/>
-  <path d="M 150 60 Q 125 75 100 70" stroke="#000000" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Batman Bat Symbol -->
+  <g transform="translate(100, 100)">
+    <!-- Left wing -->
+    <path d="M 0 -40 Q -50 -30 -70 0 Q -75 15 -60 40 Q -40 35 -20 20 L 0 0 Z" fill="#000000"/>
+    
+    <!-- Right wing -->
+    <path d="M 0 -40 Q 50 -30 70 0 Q 75 15 60 40 Q 40 35 20 20 L 0 0 Z" fill="#000000"/>
+    
+    <!-- Head/Body -->
+    <circle cx="0" cy="-25" r="22" fill="#000000"/>
+    
+    <!-- Ears - left -->
+    <path d="M -15 -50 Q -20 -70 -12 -45 Z" fill="#000000"/>
+    
+    <!-- Ears - right -->
+    <path d="M 15 -50 Q 20 -70 12 -45 Z" fill="#000000"/>
+    
+    <!-- Eyes -->
+    <ellipse cx="-8" cy="-28" rx="4" ry="6" fill="#FFD700"/>
+    <ellipse cx="8" cy="-28" rx="4" ry="6" fill="#FFD700"/>
+    
+    <!-- Chest detail -->
+    <path d="M -25 0 L -15 30 L 0 35 L 15 30 L 25 0 Z" fill="#000000"/>
+    
+    <!-- Inner bat symbol (negative space) -->
+    <ellipse cx="0" cy="15" rx="8" ry="12" fill="#FFD700"/>
+  </g>
 </svg>
