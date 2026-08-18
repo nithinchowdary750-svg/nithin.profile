@@ -1,32 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <!-- Background -->
   <rect width="200" height="200" fill="#FF0000" rx="40"/>
-  
-  <!-- Batman Bat Symbol -->
-  <g transform="translate(100, 100)">
-    <!-- Left wing -->
-    <path d="M 0 -40 Q -50 -30 -70 0 Q -75 15 -60 40 Q -40 35 -20 20 L 0 0 Z" fill="#000000"/>
-    
-    <!-- Right wing -->
-    <path d="M 0 -40 Q 50 -30 70 0 Q 75 15 60 40 Q 40 35 20 20 L 0 0 Z" fill="#000000"/>
-    
-    <!-- Head/Body -->
-    <circle cx="0" cy="-25" r="22" fill="#000000"/>
-    
-    <!-- Ears - left -->
-    <path d="M -15 -50 Q -20 -70 -12 -45 Z" fill="#000000"/>
-    
-    <!-- Ears - right -->
-    <path d="M 15 -50 Q 20 -70 12 -45 Z" fill="#000000"/>
-    
-    <!-- Eyes -->
-    <ellipse cx="-8" cy="-28" rx="4" ry="6" fill="#FFD700"/>
-    <ellipse cx="8" cy="-28" rx="4" ry="6" fill="#FFD700"/>
-    
-    <!-- Chest detail -->
-    <path d="M -25 0 L -15 30 L 0 35 L 15 30 L 25 0 Z" fill="#000000"/>
-    
-    <!-- Inner bat symbol (negative space) -->
-    <ellipse cx="0" cy="15" rx="8" ry="12" fill="#FFD700"/>
+
+  <!-- Middle-finger symbol (stylized, centered) -->
+  <g transform="translate(0,0)">
+    <!-- Palm -->
+    <rect x="72" y="76" width="56" height="56" rx="12" fill="#000000"/>
+
+    <!-- Middle finger (raised) -->
+    <rect x="94" y="18" width="12" height="72" rx="6" fill="#000000"/>
+
+    <!-- Index finger (folded) -->
+    <rect x="78" y="96" width="14" height="36" rx="7" fill="#000000" transform="rotate(-18 85 114)"/>
+
+    <!-- Ring finger (folded) -->
+    <rect x="108" y="96" width="14" height="36" rx="7" fill="#000000" transform="rotate(18 115 114)"/>
+
+    <!-- Thumb (folded across) -->
+    <rect x="58" y="104" width="34" height="14" rx="7" fill="#000000" transform="rotate(-28 75 111)"/>
+
+    <!-- Wrist/base shadow (smaller rounded rect to anchor icon) -->
+    <rect x="80" y="126" width="40" height="12" rx="6" fill="#000000"/>
+
+    <!-- Small cutout to create negative-space separation between fingers -->
+    <path d="M94 18 q6 14 0 28" fill="#FF0000"/>
   </g>
 </svg>
